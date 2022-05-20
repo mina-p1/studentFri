@@ -8,7 +8,15 @@ public class Student {
     
     private int studentId;
     private String studentName;
-    
+    private String address;
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
     
     
     
@@ -16,9 +24,6 @@ public class Student {
         this.studentId = studentId;
         this.studentName = studentName;
     }
-    
-    
-    
     
     
     public int getStudentId() {
