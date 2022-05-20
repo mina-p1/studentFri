@@ -9,7 +9,6 @@ public class Arrays_1 {
 
     public static void main(String[] args) {
         
-        //comment
         Scanner in = new Scanner(System.in);
         
         System.out.println("Please enter a word: ");
